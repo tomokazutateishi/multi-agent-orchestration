@@ -1,0 +1,16 @@
+---
+description: 変更のたびにgitへ自動コミット・プッシュしてリモートと同期する
+alwaysApply: true
+---
+
+# 自動 Git 同期
+
+このプロジェクト（multi-agent-orchestration）で**ファイルを変更したあと**は、必ず以下を実行する。
+
+1. **状態確認**: `git status` で変更・未追跡ファイルを確認する。
+2. **ステージング**: `git add .` で変更をすべてステージする（不要なファイルは .gitignore で除外済み）。
+3. **コミット**: 変更内容を簡潔に表す日本語メッセージでコミットする。
+   - 例: `git commit -m "feat: 〇〇を追加"` / `fix: △△を修正"` / `docs: READMEを更新"`
+4. **プッシュ**: `git push origin main` で GitHub に反映する。
+
+変更を加えた会話の**最後**に、上記を忘れず実行し、リモート（https://github.com/tomokazutateishi/multi-agent-orchestration）が常に最新になるようにする。
