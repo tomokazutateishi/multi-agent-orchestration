@@ -97,3 +97,7 @@ Documents/
 ## 役割・スキル一覧（サービス作成ワークフロー側）
 
 `coading/2025-01-30/ROLES_AND_SKILLS.md` に、オーケストレーター／プランナー・エグゼキューター（技術）・ドメインエキスパート（UI/UX）・クリティック／レビュアーの各スキルを補完した一覧があります。
+
+## Author / リポジトリ
+
+- GitHub: [tomokazutateishi](https://github.com/tomokazutateishi/)
